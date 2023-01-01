@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { AiFillLinkedin , AiFillGithub } from 'react-icons/ai'
 import Apresentation from '../components/apresentation'
 import Nav from '../components/nav'
 
@@ -19,12 +18,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div>
-            <h3 className='text-3xl py-1'>Services I offer</h3>
-            <p className='mt-20'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reiciendis modi itaque illo ipsum voluptas dolores numquam optio nulla deserunt velit, reprehenderit nihil exercitationem aspernatur obcaecati explicabo architecto aperiam unde.
-            </p>
-          </div>
+          
         </section>
       </main>
     </>
