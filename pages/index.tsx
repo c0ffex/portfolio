@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Apresentation from '../components/apresentation'
 import Nav from '../components/nav'
-
+import Section2 from '../components/section2'
 export default function Home() {
   return (
     <>
@@ -16,7 +16,7 @@ export default function Home() {
           <Nav/>
           <Apresentation/>
         </section>
-
+          <Section2 />
         <section>
           
         </section>

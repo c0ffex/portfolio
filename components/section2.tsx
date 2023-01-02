@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import desing from '../public/design.png'
+import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting  from '../public/consulting.png'
 import Image from "next/image"
@@ -17,9 +17,13 @@ const Section2 = () => {
             </p>
           </div>
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
-            <Image src={desing} width={100} height={100} alt={""}/>
+            <Image src={design} width={100} height={100} alt={""}/>
             <h3 className="text-lg font-medium pt-8 pb-2">Beatiful Designs</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nulla magni quos blanditiis assumenda odio aspernatur, iusto cum doloremque libero ipsum facere quasi natus repellat, porro distinctio explicabo voluptatem repellendus?</p>
+            
+          <div>
+            <Image src={design} alt={""} />
+          </div>
 
             <h4 className="py-4 text-teal-600">Programming tools I use</h4>
             <p className="text-gray-800 py-1">HTML5</p>
