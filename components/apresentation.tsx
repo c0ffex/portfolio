@@ -7,9 +7,9 @@ const Apresentation = () => {
   return (
     <>
       <div className="text-center p-10">
-        <h2 className="text-5xl py-2 text-teal-600 font-medium">Yudi Sakuna</h2>
-        <h3 className="text-2xl py-2">Back-End developer.</h3>
-        <p className="text-md py-5 leading-8 text-gray-800">
+        <h2 className="text-5xl py-2 text-teal-600 font-medium">Yudi Sakuma</h2>
+        <h3 className="text-2xl py-2 md:text-3xl">Back-End developer.</h3>
+        <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
           Freelancer providing services for programming. Check some of my works
           down below!
         </p>
@@ -18,7 +18,7 @@ const Apresentation = () => {
         <AiFillLinkedin />
         <AiFillGithub />
       </div>
-      <div className="relative overflow-hidden mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20">
+      <div className="relative overflow-hidden mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
         <Image src={deved} alt={""}/>
       </div>
       <div></div>

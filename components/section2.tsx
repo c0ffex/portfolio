@@ -16,8 +16,9 @@ const Section2 = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reiciendis mnde.
             </p>
           </div>
-          <div className="text-center shadow-lg p-10 rounded-xl my-10">
-            <Image src={design} width={100} height={100} alt={""}/>
+        <div className="lg:flex gap-10">
+          <div className="relative mx-auto text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <Image className="mx-auto" src={code} width={100} height={100} alt={""}/>
             <h3 className="text-lg font-medium pt-8 pb-2">Beatiful Designs</h3>
             <p className="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nulla magni quos blanditiis assumenda odio aspernatur, iusto cum doloremque libero ipsum facere quasi natus repellat, porro distinctio explicabo voluptatem repellendus?</p>
             
@@ -35,6 +36,48 @@ const Section2 = () => {
             <p className="text-gray-800 py-1">mongoDB</p>
             <p className="text-gray-800 py-1">Sequelize</p>
           </div>
+
+         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <Image className="mx-auto" src={code} width={100} height={100} alt={""}/>
+            <h3 className="text-lg font-medium pt-8 pb-2">Beatiful Designs</h3>
+            <p className="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nulla magni quos blanditiis assumenda odio aspernatur, iusto cum doloremque libero ipsum facere quasi natus repellat, porro distinctio explicabo voluptatem repellendus?</p>
+            
+          <div>
+            
+          </div>
+
+            <h4 className="py-4 text-teal-600">Programming tools I use</h4>
+            <p className="text-gray-800 py-1">HTML5</p>
+            <p className="text-gray-800 py-1">CSS3</p>
+            <p className="text-gray-800 py-1">NodeJS</p>
+            <p className="text-gray-800 py-1">Typescript</p>
+            <p className="text-gray-800 py-1">React</p>
+            <p className="text-gray-800 py-1">Express</p>
+            <p className="text-gray-800 py-1">mongoDB</p>
+            <p className="text-gray-800 py-1">Sequelize</p>
+          </div>
+          
+          <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <Image className="mx-auto" src={code} width={100} height={100} alt={""}/>
+            <h3 className="text-lg font-medium pt-8 pb-2">Beatiful Designs</h3>
+            <p className="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nulla magni quos blanditiis assumenda odio aspernatur, iusto cum doloremque libero ipsum facere quasi natus repellat, porro distinctio explicabo voluptatem repellendus?</p>
+            
+          <div>
+            
+          </div>
+
+            <h4 className="py-4 text-teal-600">Programming tools I use</h4>
+            <p className="text-gray-800 py-1">HTML5</p>
+            <p className="text-gray-800 py-1">CSS3</p>
+            <p className="text-gray-800 py-1">NodeJS</p>
+            <p className="text-gray-800 py-1">Typescript</p>
+            <p className="text-gray-800 py-1">React</p>
+            <p className="text-gray-800 py-1">Express</p>
+            <p className="text-gray-800 py-1">mongoDB</p>
+            <p className="text-gray-800 py-1">Sequelize</p>
+          </div>
+
+        </div>
     </>
   );
 };
