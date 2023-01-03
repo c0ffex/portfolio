@@ -19,10 +19,10 @@ const Section2 = () => {
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
             <Image src={design} width={100} height={100} alt={""}/>
             <h3 className="text-lg font-medium pt-8 pb-2">Beatiful Designs</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nulla magni quos blanditiis assumenda odio aspernatur, iusto cum doloremque libero ipsum facere quasi natus repellat, porro distinctio explicabo voluptatem repellendus?</p>
+            <p className="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nulla magni quos blanditiis assumenda odio aspernatur, iusto cum doloremque libero ipsum facere quasi natus repellat, porro distinctio explicabo voluptatem repellendus?</p>
             
           <div>
-            <Image src={design} alt={""} />
+            
           </div>
 
             <h4 className="py-4 text-teal-600">Programming tools I use</h4>
